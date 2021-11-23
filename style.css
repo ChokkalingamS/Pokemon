@@ -1,0 +1,73 @@
+.Body{
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+.mainlogo > img
+{
+    width:20rem;
+    
+}
+.mainlogo
+{
+    
+   text-align: center;
+}
+.pokemondata
+{
+    /* display:flex; */
+    /* align-items: flex-end; */
+    display:grid;
+    grid-template-columns:0.8fr 1.2fr;
+    align-items:center;
+    justify-content: center;
+    margin:2rem auto;
+    padding:10px;
+    background: rgba(231, 230, 230, 0.25);
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4px );
+     -webkit-backdrop-filter: blur( 1px ); 
+    border-radius: 10px;
+    width:29rem;
+    height:10rem;
+    
+}
+#name
+{
+    margin:0;
+}
+
+ul
+{
+    list-style-type: none;
+}
+.pokcontent
+{
+    visibility: visible;
+}
+
+.pokimg
+{
+    text-indent:0.7rem;
+  
+}
+.pokimg>img
+{
+    position: absolute;
+    top:0rem;
+    left:1rem;
+    /* width:80%; */
+   
+      
+}
+/* .pokimg:hover
+{
+        transform:scaley(1);
+       
+} */
+
+.Body
+{
+    background-color: white;
+}
